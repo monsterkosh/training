@@ -19,16 +19,7 @@ body {
     overflow: hidden;
     display: flex;
   }
-
-  .card-image {
-    background-image: url('https://bit.ly/2kOzUTm');
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: 420px 20px;
-    height: 520px;
-    transition: transform .5s;
-  }
-
+  
   .card-image-two {
     object-position: 0px 50px;
     height: 580px;
