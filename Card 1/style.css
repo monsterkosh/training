@@ -1,0 +1,82 @@
+body {
+    background-color: #fdf1ec;
+}
+
+.container {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.panel-left {
+    float: left;
+    width: 300px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.panel-left-img {
+    float: left;
+    box-sizing: border-box;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.panel-right {
+    float: left;
+    height: 100px;
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 0px 20px 20px 0px;
+    margin: 20px;
+}
+
+.panel-right-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    opacity: 70%;
+}
+
+.panel-right-subtitle{
+    font-family: 'Raleway', sans-serif;
+    font-size: 6px;
+    margin-top: -15px;
+    opacity: 30%;
+}
+
+.panel-right-description {
+    font-family: 'Playfair Display', serif;
+    margin-top: 30px;
+    opacity: 50%;
+}
+
+.panel-right-bottom {
+    margin-top: 40px;  
+    margin-left: 10px; 
+}
+
+.panel-right-bottom-price {
+    font-family: 'Suranna', serif;
+    float: left;
+    margin: 0px 25px 0 20px;
+    font-size: 30px;
+    opacity: 70%;
+}
+
+.panel-right-button {
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    font-family: 'Bentham', serif;
+    background-color: rgb(156,235,213);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 15px;
+}
+
+

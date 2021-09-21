@@ -1,0 +1,82 @@
+body {
+    box-sizing: border-box;
+    background-color: #262626;
+  }
+  
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat';
+  }
+
+  .card {
+    background-image: url('https://bit.ly/2kOzUTm');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 420px 20px;
+    background-color: white ;
+    width: 800px;
+    height: 520px;
+    border-radius: 20px;
+  }
+
+  .content {
+      margin-left:  40px;
+  }
+
+  .feature {
+    background-color: #6595ED;
+    display: inline-block;
+    border-radius: 18px;
+    font-size: 18px;
+    padding: 5px 15px; 
+    color: white;
+    font-weight: bold;
+    margin-top: 70px
+  }
+
+  .title {
+    margin-top: 30px;
+    font-size: 45px;
+    width: 290px;
+    font-weight: 700;
+    opacity: 80%;
+  }
+
+  .description {
+    margin-top: 30px;
+    width: 450px;
+    font-size: 20px;
+    opacity: 50%;
+    font-weight: 600;
+    color: gray;
+  }
+
+  .buttons {
+    margin-top: 40px;
+  }
+
+  .button-left {
+      float: left;
+      background-color: #f8f8f8;
+      width: 70px;
+      height: 50px;
+      font-size: 18px;
+      opacity: 60%;
+      border-radius: 20px 0px 0px 20px;
+      font-weight: 600;
+  }
+
+  .button-right {
+    float: left;
+    background-color: #f8f8f8;
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    opacity: 60%;
+    border-radius: 0px 20px 20px 0px;
+    font-weight: 600;
+}
+  
