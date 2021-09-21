@@ -34,7 +34,8 @@ body {
     padding: 5px 15px; 
     color: white;
     font-weight: bold;
-    margin-top: 70px
+    margin-top: 70px;
+    text-transform: uppercase;
   }
 
   .title {
@@ -43,6 +44,10 @@ body {
     width: 290px;
     font-weight: 700;
     opacity: 80%;
+  }
+
+  .title::first-letter {
+    text-transform: uppercase;
   }
 
   .description {
@@ -78,5 +83,7 @@ body {
     opacity: 60%;
     border-radius: 0px 20px 20px 0px;
     font-weight: 600;
+    text-transform: uppercase;
 }
+
   
