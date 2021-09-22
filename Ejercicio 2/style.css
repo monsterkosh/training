@@ -12,18 +12,29 @@ body {
   }
 
   .card {
-    background-image: url('https://bit.ly/2kOzUTm');
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: 420px 20px;
     background-color: white ;
     width: 800px;
     height: 520px;
     border-radius: 20px;
+    overflow: hidden;
+    display: flex;
   }
+  
+  .card-image-two {
+    object-position: 0px 50px;
+    height: 580px;
+    transition: transform .5s;
+    float: left;
+  }
+
+  .card:hover img{
+    transform: scale(1.08)
+  }
+
 
   .content {
       margin-left:  40px;
+      float: left;
   }
 
   .feature {
