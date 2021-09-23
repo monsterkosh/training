@@ -1,0 +1,39 @@
+.punto_1  > p {
+    color: red;
+}
+
+.punto_2 p {
+    color: red;
+}
+
+.punto_3 > p:first-child {
+    color: red;
+}
+
+.punto_4 > p:last-child {
+    color: red;
+} 
+
+.punto_5 ul ul  li:nth-child(2) {
+    color: red;
+}
+
+.punto_6 ul ul :not(li:nth-child(2)) {
+    color: red;
+}
+
+.punto_7 ul li:last-child p  {
+    color: red;
+} 
+
+.punto_8 {
+    color: red;
+}
+
+.punto_9 ul ul  li {
+    color: red;
+}
+
+h1:last-child {
+    color: red;
+}

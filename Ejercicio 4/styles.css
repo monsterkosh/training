@@ -27,17 +27,11 @@ body {
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
 }
 
-.card-top {
-    position: relative;
-    overflow: hidden;
-    height: 180px;
-}
-
-.card-top img {
-    width: 100%;
-    object-position: 0px -85px;
+.card-top-imagen {
+    background-image: url("https://urldefense.com/v3/__https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-1.jpg__;!!CyYWWBA!XYK70S7sqVZldnxWDFN7Wb_NW-5gFUdT8-ELPGzpmwApr74PZKHEXhrX5PMXjlcHmlhk$");
     background-size: cover;
     background-position: center center;
+    height: 45%;
 }
 
 .card-body {

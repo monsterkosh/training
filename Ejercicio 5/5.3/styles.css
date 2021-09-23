@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap [fonts.googleapis.com]');
+
+body {
+    background-color: #DFC2F2;
+    font-family: system-ui;
+    color: #000000d0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 8px 8px 8px #68686838;
+    border-radius: 20px;
+}
+
+.panel-l {
+    float: left;
+    background-color: white;
+    width: 380px;
+    height: 350px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.panel-r {
+    float: left;
+    background-image: url("https://images.unsplash.com/photo-1606830733744-0ad778449672?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fGNocmlzdG1hcyUyMHRyZWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60 [images.unsplash.com]");
+    width: 300px;
+    height: 350px;
+    background-size: 100%;
+    background-size: 300px 350px;
+    background-color: white;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    margin: 25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.description {
+    font-family: 'EB Garamond', serif;
+    margin: 25px;
+    font-size: 18px;
+    text-align: justify;
+    word-spacing: 0.1rem;
+    text-transform: capitalize;
+}
+
+.description span {
+    text-transform: capitalize;
+}
+
+.buttons {
+    position: absolute;
+    margin: 40px 0px 0px 50px;
+}
+
+.button-l {
+    float: left;
+    height: 50px;
+    width: 60px;
+    background-color: rgba(0, 0, 0, 0.781);   
+    color: white;
+    font-weight: bold;
+    font-family: 'Farsan', cursive;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 18px;
+}
+
+.button-r {
+    float: left;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    color: white;
+    background-color: #8596f7;
+    font-family: 'Farsan', cursive;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 20px;
+}
+
+.button-r span {
+    text-transform: capitalize;
+}
+
+
+
