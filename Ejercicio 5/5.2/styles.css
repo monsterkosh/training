@@ -25,13 +25,17 @@ body {
 
 .card-top {
     background-image: url("https://images.unsplash.com/photo-1631714777290-d81bbb3ef248?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzMjM5Nzk0NA&ixlib=rb-1.2.1&q=80&w=1600");
-    width: 320px;
+    width: 330px;
     height: 160px;
     background-size: cover;
 }
 
 .card-body {
     margin: 20px 20px;
+}
+
+.card-container {
+    
 }
 
 .title {
