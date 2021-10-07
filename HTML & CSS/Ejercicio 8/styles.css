@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+:root {
+    --background: white;
+    --sidebar-bgcolor: black;
+    --image: url("https://images.unsplash.com/photo-1471119017026-179f1bb0a70e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+    --font: "Helvetica";
+    --title-font: 'Abril Fatface';
+}
+
+body {
+    background-color: var(--background);
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font);
+}
+
+.wrapper {
+    width: 800px;
+    height: 800px;
+}
+
+.outer-text {
+    text-transform: uppercase;
+    margin: 10px 0px;
+    font-size: 0.8rem;
+}
+
+.article {
+    display: flex;
+    height: 90%;
+}
+
+aside {
+    background-color: var(--sidebar-bgcolor);
+    color: white;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+aside h1 {
+    text-transform: capitalize;
+    font-family: var(--title-font);
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+.sidebar p {
+    text-transform: uppercase;
+    display: flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+}
+
+.content {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid black;
+    padding: 70px;
+}
+
+.title {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.description {
+    column-count: 2;
+    font-size: 0.84rem;
+}
+

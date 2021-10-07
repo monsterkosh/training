@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Raleway&display=swap');
+
+:root {
+    --background-image: url("/assets/Japanese-girl-kimono-sakura-sword-art-picture_1920x1080.jpg");
+    --background-color: white;
+    --background-shadow: 0px 0px 58px 70px white inset;
+    --font-size-logo: 1.5rem;
+    --font-size-nav: 1.3rem;
+    --banner-font-size-title: 5rem;
+    --banner-font-size-subtitle: 2.5rem;
+    --banner-font-color-title: white;
+    --banner-font-color-subtitle: black;
+    --banner-title-font-family: 'Raleway', sans-serif;
+    --banner-subtitle-font-family: 'Ephesis', cursive;
+    --banner-font-title-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+    --nav-font-color-logo: black;
+    --nav-font-color-links: black;
+    --nav-margin: 20px;
+    --nav-padding: 75px;
+    --section-bg-color-odd: #D91F2D;
+    --section-bg-color-even: rgb(231, 231, 231);
+    --section-font-color-odd: white;
+    --section-font-color-even: black;
+    --section-font-color-odd-title: rgba(0, 0, 0, 0.603);
+    --section-font-color-even-title: #D91F2D;
+    --section-font-size-title: 2rem;
+    --section-font-size-content: 1.4rem;
+    --divisor-font-size: 2.5rem;
+    --divisor-font-color: rgba(0, 0, 0, 0.61);
+    --footer-bg-color: rgb(161, 161, 161);   
+    
+}
+
