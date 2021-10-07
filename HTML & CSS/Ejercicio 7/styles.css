@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+:root {
+    --background: #eee3c8;
+    --image: url("https://images.unsplash.com/photo-1471119017026-179f1bb0a70e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+    --title-font: 'Abril Fatface';
+}
+
+
+body {
+    background-color: var(--background);
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 600px;
+    height: 800px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    line-height: 1px;
+    font-family: var(--title-font);
+}
+
+.title h1 {
+    text-transform: uppercase;
+    font-size: 4.3rem;
+    font-weight: 100;
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px 10px 0px;
+}
+
+.subtitle p {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.subtitle p span {
+    font-weight: normal;
+}
+
+.image {
+    background-image: var(--image);
+    width: 600px;
+    height: 480px;
+    background-size: cover;
+}
+
+.description-container {
+    display: flex;
+}
+
+.description {
+    width: 450px;
+    font-size: 0.9rem;
+    word-spacing: 7px;
+    letter-spacing: 0.8px;
+    justify-content: flex-start !important;
+}
+
+.description span {
+    text-transform: uppercase;
+}
