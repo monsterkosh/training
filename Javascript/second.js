@@ -1,20 +1,3 @@
-// const removeVocals = (string) => {
-//   let vocals = ['a', 'e', 'i', 'o', 'u'];
-//   let result = [];
-
-//   for (let i = 0; i < string.length; i++) {
-//     console.log(string[i]);
-//     for (let j = 0; j < vocals.length; j++) {
-//       if (string[i] != vocals[j]) {
-//         result.push(string[i]);
-//       }
-//     }
-//   }
-//   return result;
-// };
-
-// removeVocals('origin');
-
 const removeVocals = (string) => {
   return string.replace(/[aeiou]/gi, '');
 };
