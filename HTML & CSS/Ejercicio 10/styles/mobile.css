@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+}
+
+.navbar {
+   position: fixed;
+   z-index: 3;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: var(--bs-font-sans-serif);
+}
+
+.menu {
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    flex-direction: column;
+    display: none;
+}
+
+#switch:checked ~ nav {
+    display: block;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../assets/mobile/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+
+.main-container {
+
+}
+
+.title {
+    margin-top: 100px;
+}
+
+.title h1 {
+    font-size: 2.5em;
+    letter-spacing: 6px;
+    color: var(--bs-white);
+    text-transform: uppercase;
+    text-align: center;
+    font-family: var(--bs-font-title)
+}
+
+.main img {
+    display: block;
+    margin: auto;
+}
