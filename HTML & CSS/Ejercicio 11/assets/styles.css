@@ -2,7 +2,7 @@
 @import url(./styles/base.css);
 
 /* Desktop version */
-@import url(./assets/styles/desktop.css) (min-width: 600px);
+@import url(./styles/desktop.css) (min-width: 600px);
 
 /* Mobile version */
-@import url(./assets/styles/mobile.css) (max-width: 599px);
+@import url(./styles/mobile.css) (max-width: 599px);
